@@ -10,7 +10,7 @@ pipeline {
   {
   agent { label 'test' }
    steps { 
-    git branch: 'master', url: 'https://github.com/Devopsmural/CICD.git'
+    git branch: 'master', url: 'https://github.com/Devopsmural/Ci_job.git'
    }
   }
   
